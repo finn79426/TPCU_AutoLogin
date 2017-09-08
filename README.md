@@ -13,6 +13,7 @@ TPCU_AutoLogin
 * [How to run?](#如何使用？)
 * [How to edit config again?](#如何修改設定？)
 * [特別感謝](#特別感謝)
+* [免責說明](#免責說明)
 
 
 ## 開始
@@ -92,5 +93,14 @@ config.txt即會被轉成.py檔案<br>
 
 ## 特別感謝
 特別感謝ZoneTwelve提供JavaScript Code給小弟我
-沒有你，我完成不了驗證碼的部分，因為我不會寫JS :sweat_smile:<br> 
+沒有你，我完成不了驗證碼的部分，因為我不會寫JS :sweat_smile: 
 <(_ _)>
+
+
+## 免責說明
+本程式並不會盜用您任何個資<br>
+原始碼都公開出來了，也沒得盜<br>
+若不放心，請勿使用<br>
+<br>
+禁止將此程式用作不法用途<br>
+此程式套用 CC-BY-SA
