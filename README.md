@@ -88,11 +88,11 @@ python login.py
 
 ## 如何修改設定？
 config.txt即會被轉成.py檔案<br>
-若要修改config內容，可刪除config.py再新增一個config.txt即可
+若要修改config內容，可刪除config.py再新增一個config.txt即可<br>
 也可以直接修改config.py (如果你會的話)
 
 ## 特別感謝
-特別感謝ZoneTwelve提供JavaScript Code給小弟我
+特別感謝ZoneTwelve提供JavaScript Code給小弟我<br>
 沒有你，我完成不了驗證碼的部分，因為我不會寫JS :sweat_smile: 
 <(_ _)>
 
