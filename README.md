@@ -8,8 +8,11 @@ TPCU_AutoLogin
 # 目錄
 * [Getting Started](#開始)
 * [Code Example](#代碼說明)
-* [How to Setup?](#如何安裝？)
-
+* [How to Install?](#如何安裝？)
+* [How to Setup?](#如何設定？)
+* [How to run?](#如何使用？)
+* [How to edit config again?](#如何修改設定？)
+* [特別感謝](#特別感謝)
 
 
 ## 開始
@@ -58,7 +61,7 @@ pip install selenium
 
 以作者的windows環境來說:
 ```
-PATH = 'C:/Users/user/Desktop/tpcu/Windowschrome.exe'
+PATH = 'C:/Users/user/Desktop/tpcu/Windows_chrome.exe'
 Username = 'myusername'
 Password = 'mypassword'
 ```
@@ -69,5 +72,25 @@ Username = 'myusername'
 Password = 'mypassword'
 ```
 
+## 如何使用？
+再次打開終端機介面(參考[如何安裝?](#如何安裝？))<br>
+使用 cd 指令切換到 login.py 的資料夾
 
+![](https://i.imgur.com/bc3c2ap.png)
 
+輸入
+```
+python login.py
+```
+看到這個畫面就代表成功囉
+![](https://i.imgur.com/mhBfmZg.png)
+
+## 如何修改設定？
+config.txt即會被轉成.py檔案<br>
+若要修改config內容，可刪除config.py再新增一個config.txt即可
+也可以直接修改config.py (如果你會的話)
+
+## 特別感謝
+特別感謝ZoneTwelve提供JavaScript Code給小弟我
+沒有你，我完成不了驗證碼的部分，因為我不會寫JS :sweat_smile:<br> 
+<(_ _)>
