@@ -52,4 +52,4 @@ passwd.send_keys(config.Password)
 
 # 登入成功
 driver.find_element_by_id("chk").click()
-print("登入成功！\n有問題請來信：finn79426@gmail.com")
+print("登入成功！\nMade by：小曹\n有問題請來信：finn79426@gmail.com")
