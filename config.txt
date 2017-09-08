@@ -1,0 +1,3 @@
+PATH = "chromedriver路徑"
+Username = "校務系統帳號"
+Password = "校務系統帳號"
