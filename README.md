@@ -19,13 +19,27 @@ TPCU_AutoLogin
 * Chrome安裝版 (請先事前安裝完成)
 
 ## 代碼說明
-config.txt 設定檔，需在裡面設定帳號、密碼等<br>
-login.py 主程式，內有處理驗證碼，尋找元素的code<br>
-Linux_chrome Linux用的webdriver，binary檔案<br>
-Windows_chrome.exe Windows用的webdriver，exe檔案
+```
+config.txt : 設定檔，需在裡面設定帳號、密碼等
+login.py : 主程式，內有處理驗證碼，尋找元素的code
+Linux_chrome : Linux用的webdriver，binary檔案
+Windows_chrome.exe : Windows用的webdriver，exe檔案
+```
 
 ## 如何安裝？
 首先，請先到 www.python.org 下載Python<br>
 請至少選擇3.5以上的版本，並請在安裝過程勾選安裝pip
 ![](https://i.imgur.com/Hsf0GSb.png)
 ![](https://i.imgur.com/3GLfvxu.png)
+
+安裝完成後，打開你的終端機介面
+
+windows使用者按下Win鍵，輸入cmd後Enter
+Linux使用者打開Terminal
+輸入
+```
+pip install selenium
+```
+![](https://i.imgur.com/Wxr3Ybg.png)
+
+過程中他會安裝一些套件，等他跑完就好了
