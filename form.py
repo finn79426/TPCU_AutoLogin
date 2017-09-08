@@ -20,7 +20,13 @@ driver.get('http://siw71.tpcu.edu.tw/tsint/')
 # 載入後等 X 秒
 driver.implicitly_wait(3)
 
-# 跳轉frame
+# 自動驗證碼
+driver.execute_script("var fake_CAPTCHA")
+driver.execute_script("tmp = eval(window.frames[2].document.querySelectorAll('font')[6].innerText.replace(/=/, ''));")
+driver.execute_script("window.frames[2].document.querySelector('#ls_chkrand').value = tmp;")
+##### 特別感謝黑黑ZoneTwelve提供JavaScript Code給小弟 <(_ _)>  #####
+
+# 跳轉到 Main frame
 frame = driver.find_element_by_id("Main")
 driver.switch_to_frame(frame)
 
@@ -31,7 +37,3 @@ passwd = driver.find_element_by_name('pwd')
 # keyin
 username.send_keys('')
 passwd.send_keys('')
-
-
-randcode = driver.find_element_by_name('ls_chkrand')
-randcode.send_keys('123')
