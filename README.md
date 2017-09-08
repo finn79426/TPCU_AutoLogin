@@ -34,12 +34,15 @@ Windows_chrome.exe : Windows用的webdriver，exe檔案
 
 安裝完成後，打開你的終端機介面
 
-windows使用者按下Win鍵，輸入cmd後Enter
-Linux使用者打開Terminal
-輸入
+windows使用者按下Win鍵，輸入cmd後Enter<br>
+Linux使用者打開Terminal<br>
+輸入：
 ```
 pip install selenium
 ```
 ![](https://i.imgur.com/Wxr3Ybg.png)
 
 過程中他會安裝一些套件，等他跑完就好了
+
+
+
