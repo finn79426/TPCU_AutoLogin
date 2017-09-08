@@ -51,7 +51,7 @@ pip install selenium
 這邊要注意的是，<font color="red">路徑是指driver的路徑</font><br>
 如果你是Windows用戶，那就使用Windows_chrome.exe<br>
 如果你是Linux用戶，那就使用Linux_chrome<br>
-**請將路徑帳號密碼包在雙引號裡面！**
+**請將路徑帳號密碼包在引號裡面！**
 
 <font color="red">**windows用戶請注意，請依照下圖使用的格式**</font>
 ![](https://i.imgur.com/FJXvamI.png)
