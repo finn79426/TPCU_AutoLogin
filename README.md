@@ -14,6 +14,7 @@ TPCU_AutoLogin
 
 ## 開始
 你至少需要：
+* Windows 64bit 或是 任意Linux發行版64bit
 * Clone 或是 dowload **TPCU_AutoLogin**
 * Python3.5
 * Chrome安裝版 (請先事前安裝完成)
@@ -43,6 +44,30 @@ pip install selenium
 ![](https://i.imgur.com/Wxr3Ybg.png)
 
 過程中他會安裝一些套件，等他跑完就好了
+
+## 如何設定？
+**打開 config.txt，將chrome路徑、帳號、密碼輸入進去**<br>
+<br>
+這邊要注意的是，<font color="red">路徑是指driver的路徑</font><br>
+如果你是Windows用戶，那就使用Windows_chrome.exe<br>
+如果你是Linux用戶，那就使用Linux_chrome<br>
+**請將路徑帳號密碼包在雙引號裡面！**
+
+<font color="red">**windows用戶請注意，請依照下圖使用的格式**</font>
+![](https://i.imgur.com/FJXvamI.png)
+
+以作者的windows環境來說:
+```
+PATH = 'C:/Users/user/Desktop/tpcu/Windowschrome.exe'
+Username = 'myusername'
+Password = 'mypassword'
+```
+以作者的Linux環境來說:
+```
+PATH = '/home/coolman/tpcu/Linux_chrome'
+Username = 'myusername'
+Password = 'mypassword'
+```
 
 
 
