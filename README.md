@@ -20,7 +20,9 @@ TPCU_AutoLogin
 
 ## 代碼說明
 config.txt 設定檔，需在裡面設定帳號、密碼等<br>
-login.py 主程式，內有處理驗證碼，尋找元素的code
+login.py 主程式，內有處理驗證碼，尋找元素的code<br>
+Linux_chrome Linux用的webdriver，binary檔案<br>
+Windows_chrome.exe Windows用的webdriver，exe檔案
 
 ## 如何安裝？
 首先，請先到 www.python.org 下載Python<br>
