@@ -86,6 +86,10 @@ python login.py
 看到這個畫面就代表成功囉
 ![](https://i.imgur.com/mhBfmZg.png)
 
+**9/14更新**
+Windows用戶僅需雙擊start.bat即可啟動
+Linux尚無，因為我不會寫shell script XDD
+
 ## 如何修改設定？
 config.txt即會被轉成.py檔案<br>
 若要修改config內容，可刪除config.py再新增一個config.txt即可<br>
